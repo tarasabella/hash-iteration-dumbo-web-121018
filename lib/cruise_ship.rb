@@ -11,8 +11,9 @@ def select_winner(passengers)
 winner = ""
 passengers.each do |suite, name|
   if suite == :suite_a && name.start_with?("A")
-#iterate over all passengers and grab the passenger in suite a with first letter of name 
+#iterate over all passengers and grab the passenger in suite a with name starting with "A"
     winner = name
+    #set winner's name equal to variable to be returned later 
   end
 end
  
