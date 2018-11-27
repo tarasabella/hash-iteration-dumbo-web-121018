@@ -7,7 +7,9 @@
 # }
 
 def select_winner(passengers)
+  # define a method that takes in an argument of the passengers hash 
 winner = ""
+#set winner 
 passengers.each do |suite, name|
   if suite == :suite_a && name.start_with?("A")
     winner = name
